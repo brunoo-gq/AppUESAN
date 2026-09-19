@@ -24,3 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "AppUESAN"
 include(":app")
+project(":app").projectDir.mkdirs()
+
